@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Leo Fee Receipt Generator</title>
+		<link rel="stylesheet" href="../style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="hello-line">Leo Fee Receipt Generator</div>
+		</div>
+
+		<div class="form-wrapper">
+			<form method="post" class="details-form" action="/create">
+				<input type="text" name="name" placeholder="Name of person" required>
+				<input type="text" name="date" placeholder="Date of transaction" required>
+				<input type="text" name="payment-method" placeholder="Payment Method" required>
+				<input type="text" name="trans-id" placeholder="Transaction ID" required>
+				<input value="Submit" type="submit">
+			</form>
+		</div>
+	</body> 
+</html>
